@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background: #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+canvas {
+  background: #222;
+  border: 2px solid white;
+  margin-top: 20px;
+}
+
+/* スマホ操作ボタン */
+.controls {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.controls button {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  border-radius: 10px;
+  border: none;
+  background: #444;
+  color: white;
+  box-shadow: 0 4px #222;
+}
+
+.controls button:active {
+  background: #666;
+  box-shadow: none;
+  transform: translateY(4px);
+}
